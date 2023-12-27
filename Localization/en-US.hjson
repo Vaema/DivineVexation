@@ -1,5 +1,10 @@
-﻿Mods: {
+Mods: {
 	DVMod: {
-		
+		Buffs: {
+			EtherealCurse: {
+				DisplayName: Ethereal Curse
+				Description: Your soul is rotting
+			}
+		}
 	}
 }
