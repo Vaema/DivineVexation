@@ -15,6 +15,4 @@
       <HintPath>lib\ParticleLibrary.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
 </Project>
