@@ -1,0 +1,14 @@
+displayName = Divine Vexation
+author = Team Arcadia
+version = 1.0
+homepage = https://discord.gg/pyxQpk6fzN
+
+hideCode = true
+hideResources = true
+includeSource = false
+includePDB = true
+
+modReferences = ParticleLibrary
+sortAfter = ParticleLibrary
+
+buildIgnore = *.csproj, *.user, *.md, obj\*, bin\*, .vs\*, .vscode\*, .git\*, .github\*, *.ymlm, *.editorconfig, *.gitignore, Properties\*

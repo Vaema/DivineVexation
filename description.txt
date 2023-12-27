@@ -1,0 +1,10 @@
+Divine Vexation is a work-in-progress content mod.
+
+It is not available on tModLoader's workshop on Steam at the moment.
+When the time comes, I will update the description and publish it.
+
+Do NOT publish the mod in tModLoader, it must be published under the username "Vaema" in Steam.
+If this happens, I have the right to take it down by reporting it to a tModLoader developer.
+
+You are allowed to download the source and contribute, but publishing it is strictly prohibited.
+Using this mod in a playthrough is not recommended.
