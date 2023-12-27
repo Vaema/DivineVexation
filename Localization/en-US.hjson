@@ -1,5 +1,16 @@
 Mods: {
 	DVMod: {
+		Items: {
+			DuskFlame: {
+				DisplayName: Dusk Flame
+				Tooltip: A nightly flare that was once a spirit
+			}
+
+			Auracris: {
+				DisplayName: Auracris
+			}
+		}
+
 		Buffs: {
 			EtherealCurse: {
 				DisplayName: Ethereal Curse
