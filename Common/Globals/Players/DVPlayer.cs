@@ -21,15 +21,17 @@ namespace DVMod.Common.Globals.Players
         {
             if (eCurse)
             {
-                if (Main.rand.Next(4) < 3)
+                if (Main.rand.Next(4) < 3 && !Player.dead)
                 {
-                    int dust = Dust.NewDust(Player.position - new Vector2(2f, 2f), Player.width + 4, Player.height + 4, ModContent.DustType<EtherealCurseDust>(), Player.velocity.X * 0.4f, Player.velocity.Y -= 0.85f, 100, default(Color), 1.5f);
+                    int dust = Dust.NewDust(drawInfo.Position - new Vector2(2f, 2f), Player.width + 4, Player.height + 4, ModContent.DustType<EtherealCurseDust>(), Player.velocity.X * 0.4f, Player.velocity.Y * 0.4f, 100, default, 1.5f);
                     Main.dust[dust].noGravity = true;
-                    Main.dust[dust].velocity *= 1.8f;
+                    Main.dust[dust].velocity *= 0.75f;
                     Main.dust[dust].velocity.Y -= 0.5f;
 
                     if (Main.rand.NextBool(4))
                         Main.dust[dust].noGravity = false;
+
+                    drawInfo.DustCache.Add(dust);
                 }
             }
         }

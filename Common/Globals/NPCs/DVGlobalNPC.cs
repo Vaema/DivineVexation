@@ -10,7 +10,7 @@ namespace DVMod.Common.Globals.NPCs
         public override bool InstancePerEntity => true;
 
         // Buffs
-        public bool eCurse;
+        public bool eCurse = false;
         public int eCurseDMG = Main.expertMode ? 16 : 32;
 
         public override GlobalNPC Clone(NPC npc, NPC npcClone)

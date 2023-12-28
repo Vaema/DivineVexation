@@ -8,6 +8,7 @@ Mods: {
 
 			Auracris: {
 				DisplayName: Auracris
+				Tooltip: ""
 			}
 		}
 
@@ -17,5 +18,7 @@ Mods: {
 				Description: Your soul is rotting
 			}
 		}
+
+		NPCs.Mogwai.DisplayName: Mogwai
 	}
 }
